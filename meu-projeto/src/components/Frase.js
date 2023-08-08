@@ -8,4 +8,4 @@ function Frase() {
 
 }
 
-export default Frase
+export default Frase;

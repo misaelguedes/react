@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
   const nome = 'Misael'
@@ -23,6 +25,14 @@ function App() {
           Learn React
         </a>
         <HelloWorld/>
+        <SayMyName nome={nome}/>
+        <SayMyName nome='Dudu'/>
+        <SayMyName nome='Raphael Veiga'/>
+        <Pessoa 
+        nome='Weverton' 
+        idade='35' 
+        profissao='Goleiro' 
+        foto="https://via.placeholder.com/150"/>
       </header>
     </div>
   );
