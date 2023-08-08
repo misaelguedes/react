@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   const nome = 'Misael'
@@ -21,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <HelloWorld/>
       </header>
     </div>
   );
