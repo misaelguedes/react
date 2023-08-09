@@ -1,6 +1,7 @@
 body {
   background-color: black;
   padding: 50px;
+  padding-bottom: 500px;
 }
 
 div.App > .App-header {
