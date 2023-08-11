@@ -11,6 +11,12 @@ import OutraLista from './components/OutraLista';
 import SeuNome from './components/SeuNome';
 import { useState } from 'react';
 import Saudacao from './components/Saudacao';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Home from './pages/Home';
+import Contato from './pages/Contato';
+import Empresa from './pages/Empresa';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   const nome = 'Misael'
@@ -54,6 +60,21 @@ function App() {
         <h1>State Lift</h1>
         <SeuNome setName={setName}/>
         <Saudacao name={name}/>
+        <Router>
+          <Navbar/>
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route path="/contato">
+              <Contato/>
+            </Route>
+            <Route path="/empresa">
+              <Empresa/>
+            </Route>
+          </Switch>
+        </Router>
+        <Footer/>
       </header>
     </div>
   );
