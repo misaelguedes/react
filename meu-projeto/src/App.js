@@ -8,11 +8,15 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
 import OutraLista from './components/OutraLista';
+import SeuNome from './components/SeuNome';
+import { useState } from 'react';
+import Saudacao from './components/Saudacao';
 
 function App() {
   const nome = 'Misael'
   const url = 'https://via.placeholder.com/150'
   const meusItens = ['react', 'vue', 'angular']
+  const [name, setName] = useState()
 
   return (
     <div className="App">
@@ -47,6 +51,9 @@ function App() {
         <h1>Renderização de Listas</h1>
         <OutraLista itens={meusItens}/>
         <OutraLista itens={[]}/>
+        <h1>State Lift</h1>
+        <SeuNome setName={setName}/>
+        <Saudacao name={name}/>
       </header>
     </div>
   );
