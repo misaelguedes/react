@@ -7,8 +7,27 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 300,
+      "services": [
+        {
+          "name": "Meu Novo Serviço",
+          "cost": "100",
+          "description": "Pronto",
+          "id": "4d023e30-753e-4beb-b524-b4ee152a2949"
+        },
+        {
+          "name": "Meu Novo Serviço",
+          "cost": "100",
+          "description": "Pronto",
+          "id": "4d023e30-753e-4beb-b524-b4ee152a2949"
+        },
+        {
+          "name": "Meu Novo Serviço",
+          "cost": "100",
+          "description": "Pronto",
+          "id": "53dc86f1-27e9-41d6-94f6-71b577277902"
+        }
+      ],
       "id": 8
     },
     {
