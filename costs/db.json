@@ -7,7 +7,7 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 300,
+      "cost": 423,
       "services": [
         {
           "name": "Meu Novo Serviço",
@@ -26,6 +26,12 @@
           "cost": "100",
           "description": "Pronto",
           "id": "53dc86f1-27e9-41d6-94f6-71b577277902"
+        },
+        {
+          "name": "Projeto Atualizado",
+          "cost": "123",
+          "description": "Pronto",
+          "id": "4025db2a-c6eb-41de-8989-690a3f424ac4"
         }
       ],
       "id": 8
@@ -37,8 +43,33 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1569,
+      "services": [
+        {
+          "name": "Serviço do Projeto",
+          "cost": "1500",
+          "description": "Teste",
+          "id": "126f8ecd-3467-44a0-917c-2da85fe2e148"
+        },
+        {
+          "name": "Projeto Atualizado",
+          "cost": "23",
+          "description": "Teste",
+          "id": "565c5063-7ea3-412c-93b1-1ca203ba16a0"
+        },
+        {
+          "name": "Projeto Atualizado",
+          "cost": "23",
+          "description": "Teste",
+          "id": "565c5063-7ea3-412c-93b1-1ca203ba16a0"
+        },
+        {
+          "name": "Projeto Atualizado",
+          "cost": "23",
+          "description": "Teste",
+          "id": "565c5063-7ea3-412c-93b1-1ca203ba16a0"
+        }
+      ],
       "id": 11
     },
     {
@@ -48,8 +79,15 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1200,
+      "services": [
+        {
+          "name": "Meu Projeto",
+          "cost": "1200",
+          "description": "Teste",
+          "id": "34294995-1892-4d8e-a807-7a98dfee057c"
+        }
+      ],
       "id": 12
     },
     {
